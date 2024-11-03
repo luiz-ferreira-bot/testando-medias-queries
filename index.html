@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com media queries</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Meu Site</h1>
+        <!--nome variável / função -->
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+        <menu id="itens">
+            <ul>
+                <li>
+                    <a href="#">Opçao 1</a>
+                </li>
+
+                <li>
+                    <a href="#">Opçao 2</a>
+                </li>
+
+                <li>
+                    <a href="#">Opçao3</a>
+                </li>
+
+                <li>
+                    <a href="#">Opçao 4</a>
+                </li>
+
+                <li>
+                    <a href="#">Opçao 5</a>
+                </li>
+
+            </ul>
+        </menu>
+    </header>
+
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ad voluptatem id ex quam explicabo incidunt
+                quos harum, molestiae quis qui tempore maiores possimus voluptatibus debitis quae repellat rerum
+                voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nesciunt! Amet, nihil? Quam
+                hic facere culpa! Quasi vitae asperiores quam! Labore, accusantium? Totam aspernatur vel, deleniti
+                reiciendis officia quis similique!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam quae laudantium doloremque expedita earum
+                qui accusamus animi eligendi consequuntur et ad vel commodi, nemo cum omnis! Illo excepturi eligendi
+                molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis hic provident aliquid
+                deserunt quibusdam? Illum, voluptatem? Praesentium laboriosam totam ut ipsum, fugit, nesciunt asperiores
+                fuga architecto voluptatibus adipisci facilis voluptatum!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore unde eligendi mollitia, vitae, iste
+                nihil aperiam iusto possimus nobis laudantium totam commodi magnam aspernatur vero aliquam doloremque ea
+                cupiditate deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti eligendi
+                reprehenderit tenetur exercitationem aspernatur ipsam facere doloremque deserunt cupiditate dolorum,
+                quam optio labore dolorem nisi expedita delectus nam! Facilis!</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>
